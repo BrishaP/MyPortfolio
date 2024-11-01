@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <nav>
+      <h2>&lt;header&gt;</h2>
         <h2>&lt;nav&gt;</h2>
         <ul>
           <li><a href='#'>HOME</a></li>
@@ -14,6 +15,7 @@ export default function Home() {
           <li><a href='#'>CV</a></li>
         </ul>
         <h2>&lt;/nav&gt;</h2>
+        <h2>&lt;/header&gt;</h2>
       </nav>
       <h1>&lt;h1&gt;ME: BRISHA PATEL&lt;/h1&gt;</h1>
       <h2>&lt;h2&gt;ABOUT&lt;/h2&gt;</h2>
@@ -26,6 +28,17 @@ export default function Home() {
         <li><h3>WeatherApp</h3> Image Placeholder<a href='#'>github link</a><a href='#'>Deployed link</a><a href='#'>Learn More</a></li>
         <h2>&lt;/ul&gt;</h2>      
       </ul>
+      <footer>
+      <h2>&lt;footer&gt;</h2>
+      <h2>&lt;h2&gt;CONTACT&lt;/h2&gt;</h2>
+      <p>&lt;p&gt;Feel free to reach out to me:&lt;/p&gt;</p>
+      <ul>
+          <li><a href="https://github.com/BrishaP" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/brisha-patel/" target="_blank">LinkedIn</a></li>
+          <li><a href="mailto:brishapatel930@gmail.com">brishapatel930@gmail.com</a></li>
+        </ul>
+        <h2>&lt;/footer&gt;</h2>
+        </footer>
     </div>
   );
 }
